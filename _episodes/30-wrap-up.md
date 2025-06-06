@@ -22,6 +22,8 @@ keypoints:
 
 Below are some additional resources to help you continue learning:
 
+- [A comprehensive HPC manual](https://cnrm.uniri.hr/upload/2023/03/hipowered_book.pdf)
+- [Carpentries HPC workshop](https://carpentries-incubator.github.io/hpc-intro/)
 - [Foundations of Astronomical Data Science Carpentries Workshop](https://datacarpentry.github.io/astronomy-python/)
 - [A previous InterPython workshop materials, covering collaborative usage of GitHub, 
 Programming Paradigms, Software Architecture and many more](https://shrra.github.io/python-intermediate-development/)
