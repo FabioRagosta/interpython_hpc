@@ -13,7 +13,7 @@ objectives:
 - "Put the course in context with future learning."
 keypoints:
 - "Keypoint 1"
-
+---
 
 ## Summary
 
