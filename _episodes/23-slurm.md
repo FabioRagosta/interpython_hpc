@@ -64,4 +64,24 @@ Slurm directly launches the tasks and performs initialization of communications 
 Slurm creates a resource allocation for the job and then mpirun launches tasks using Slurm's infrastructure (older versions of OpenMPI).
 Slurm creates a resource allocation for the job and then mpirun launches tasks using some mechanism other than Slurm, such as SSH or RSH. These tasks are initiated outside of Slurm's monitoring or control. Slurm's epilog should be configured to purge these tasks when the job's allocation is relinquished. The use of pam_slurm_adopt is also strongly recommended.
 
+# 🧪 Slurm Basic Command Examples
+
+This document provides basic examples of Slurm commands, showing both the input and expected output.  
+Comments are added to explain each step for beginners.
+
+---
+
+## 1. View Available Resources
+
+```bash
+# Display the status of partitions (queues) and nodes
+sinfo
+```
+### Expected Output:
+```bash
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+debug        up   infinite      2   idle node[01-02]
+batch        up   infinite      4   idle node[03-06]
+```
+
 {% include links.md %}
