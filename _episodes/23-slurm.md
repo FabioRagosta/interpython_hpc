@@ -47,7 +47,7 @@ Man pages exist for all Slurm daemons, commands, and API functions. The command 
 
 *sshare* displays detailed information about fairshare usage on the cluster. Note that this is only viable when using the priority/multifactor plugin.
 
-**sstat is used to get information about the resources utilized by a running job or job step.
+**sstat** is used to get information about the resources utilized by a running job or job step.
 
 *strigger* is used to set, get or view event triggers. Event triggers include things such as nodes going down or jobs approaching their time limit.
 
@@ -56,7 +56,7 @@ Man pages exist for all Slurm daemons, commands, and API functions. The command 
 ## To have a look to more general commands
 [SLURM Quick Start Summary (PDF)](https://slurm.schedmd.com/pdfs/summary.pdf)
 
-
+## MPI
 MPI use depends upon the type of MPI being used. There are three fundamentally different modes of operation used by these various MPI implementations.
 
 Slurm directly launches the tasks and performs initialization of communications through the PMI2 or PMIx APIs. (Supported by most modern MPI implementations.)
